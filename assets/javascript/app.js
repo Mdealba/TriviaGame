@@ -39,7 +39,7 @@ var questions = [{
     questions: "Who is Panda playing for, as of May 2, 2018?",
     answers: ["Dogers", "Giants", "Red Socks", "Tigers"],
     correctAnswer: "Giants"
-}
+},
 ]
 
 // function to set up my game (onclick)
@@ -65,11 +65,11 @@ var game = {
             game.done()
         }
     },
-    startGame: function() {
-        timer = setInterval(game.countDown, 1000)
-        if 
-    },
-    done: function() {
-        //Do cool shit here
-    }
+    // startGame: function() {
+    //     timer = setInterval(game.countDown, 1000)
+    //     if 
+    // },
+    // done: function() {
+        //Do cool stuff here
+    // }
 }
