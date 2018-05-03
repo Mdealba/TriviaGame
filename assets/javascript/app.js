@@ -53,7 +53,7 @@ var questions = [{
 // calculated results function (will calculate the results)
 
 // capture the value of the radio button
- var timer;
+var timer;
 var game = {
     correctAnswers: 0,
     incorrectAnswers: 0,
@@ -65,10 +65,10 @@ var game = {
             game.done()
         }
     },
-    // startGame: function() {
-    //     timer = setInterval(game.countDown, 1000)
-    //     if 
-    // },
+    startGame: function() {
+        timer = setInterval(game.countDown, 1000)
+        if 
+    },
     // done: function() {
         //Do cool stuff here
     // }
