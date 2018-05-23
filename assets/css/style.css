@@ -39,7 +39,11 @@ body {
     margin: 0 auto;
     background-color: rgba(0,0,0,.5);
     padding: 5% 0;
-    text-align: center
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-style: oblique;
+    color: #fff6db;
 }
 
 #game-results {
@@ -47,21 +51,50 @@ body {
     margin: 0 auto;
     background-color: rgba(0,0,0,.5);
     padding: 5% 0;
-    text-align: center
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+    font-style: oblique;
+    color: #fff6db;
+}
+
+.done-btn {
+    margin-top: 50px;
+    border-radius: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+
+}
+
+.reset {
+    border-radius: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+
+}
+
+.btn-primary {
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 15px;
 }
 
 h1 {
-    font-family: 'Stylish', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-style: oblique;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
+    color: #fff6db
 }
 
 p {
-    font-family: 'Stylish', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-style: oblique;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    color: #fff6db;
 }
 
 .hide {
@@ -71,8 +104,12 @@ p {
 .start {
     text-align: center;
     margin-left: 47%;
+    border-radius: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
 }
 
+
 .selected {
-    background-color: red
+    background-color: #f98e02;
 }

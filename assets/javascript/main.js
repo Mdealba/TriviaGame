@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-    var doneBtn = $('<button>').addClass('done-btn').text('done');
+    var doneBtn = $('<button>').addClass('done-btn').text('Done');
 
     var questionSet = [
         {
@@ -147,10 +147,10 @@ $(document).ready(function() {
 
     function displayResults(){
         var resultWrap = $("<div>").addClass("results");
-        var correctText = $("<h3>").text("right answers: " + right);
-        var wrongText  = $("<h3>").text("wrong answers: " + wrong);
-        var unanswerText = $("<h3>").text("unanswerd: "+ unanswer);
-        var resetBtn = $("<button>").attr("id", "reset").addClass("btn reset").text("start over");
+        var correctText = $("<h3>").text("Right Answers: " + right);
+        var wrongText  = $("<h3>").text("Wrong Answers: " + wrong);
+        var unanswerText = $("<h3>").text("Unanswerd: "+ unanswer);
+        var resetBtn = $("<button>").attr("id", "reset").addClass("btn reset").text("Start Over");
         $(resultWrap).append(correctText, wrongText, unanswerText, resetBtn);
         $("#game-results").append(resultWrap);
     }
