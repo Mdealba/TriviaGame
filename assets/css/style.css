@@ -26,11 +26,28 @@ body {
     top: 150px;
 }
 
+
 .wrap{
     width: 55%;
     margin: 0 auto;
     background-color: rgba(0,0,0,.5);
     padding: 5% 0;
+}
+
+#game-questions {
+    width: 55%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0;
+    text-align: center
+}
+
+#game-results {
+    width: 55%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0;
+    text-align: center
 }
 
 h1 {
@@ -45,4 +62,17 @@ p {
     font-style: oblique;
     font-size: 30px;
     text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.start {
+    text-align: center;
+    margin-left: 47%;
+}
+
+.selected {
+    background-color: red
 }
